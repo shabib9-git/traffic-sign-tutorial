@@ -1,26 +1,28 @@
 [Home](index.md) | [Classical](classical.md) | [Deep Learning](deep-learning.md) | [Datasets & Eval](datasets.md) | [Success/Failure](successes-failures.md) | [Challenges](challenges.md) | [Future](future.md) | [Bibliography](bibliography.md)
 
-
 # Successes and Failures
 
 ## Where it works well
-- Clear daylight, frontal view, clean signage.
-- Benchmarks show high accuracy on curated datasets.
+Traffic sign recognition systems achieve very high accuracy in controlled conditions.  
+In good lighting, with clear and visible signs, most modern models perform extremely well.  
 
 ![Success Detection](assets/images/success-detection.png)  
-
+*Figure: Successful detection example.*
 
 ## Common failure cases
-- **Small or distant** signs (few pixels tall).
-- **Occlusion** (trees, vehicles), **weather/night**, **faded paint**.
-- **Domain shift** (different countries/sign styles).
+However, there are still important failure cases.  
+Small or distant signs can be hard to detect. Signs may also be missed when they are partially blocked, poorly lit, or damaged by fading and graffiti.  
+These weaknesses highlight the gap between benchmark performance and real-world deployment, and show why continued research is needed.  
 
 ![Failure Detection](assets/images/failure-detection.png)  
+*Figure: Example of a missed sign.*
 
+<audio controls src="assets/audio/success-failure.mp3">Your browser does not support audio.</audio>
 
 <hr>
 
-<p><strong>Interactive Quiz:</strong> Why might this traffic sign have been missed by the detector?</p>
+## Interactive Quiz
+<p><strong>Quiz:</strong> Why might this traffic sign have been missed by the detector?</p>
 <img src="assets/images/quiz-stop.jpg" alt="Blurred STOP Sign" width="300">
 
 <form id="quizForm">
@@ -49,7 +51,3 @@
     }
   });
 </script>
-
-
-
-<audio controls src="assets/audio/success-failure.mp3">Your browser does not support audio.</audio>
