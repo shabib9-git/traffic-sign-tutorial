@@ -21,8 +21,4 @@ This page covers **simple, classical approaches** before deep learning.
 ## Handcrafted features (HOG + SVM)
 - Compute HOG per candidate ROI, classify with SVM.
 
-**TODOs**
-- Add 1–2 images showing color mask and a Hough circle result.
-- Record a quick audio note here (30–60s) and link it.
-
 <audio controls src="assets/audio/classical.mp3">Your browser does not support audio.</audio>
