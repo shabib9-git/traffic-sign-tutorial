@@ -22,8 +22,4 @@
 - Attention helps with **small/occluded** signs.
 - Example: Pyramid Transformer (feature fusion with attention).
 
-**TODOs**
-- Add a diagram comparing CNN vs. transformer (upload to `assets/images/`).
-- Record a short audio note for this page.
-
 <audio controls src="assets/audio/deep.mp3">Your browser does not support audio.</audio>
