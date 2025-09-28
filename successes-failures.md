@@ -15,6 +15,9 @@
 - **Occlusion** (trees, vehicles), **weather/night**, **faded paint**.
 - **Domain shift** (different countries/sign styles).
 
+![Failure Detection](assets/images/failure-detection.png)  
+
+
 **TODOs**
 - Add 1–2 side-by-side images: detected vs. missed.
 - Short audio reflection on failure cases.
