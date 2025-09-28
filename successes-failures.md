@@ -25,7 +25,7 @@
 <hr>
 
 <p><strong>Interactive Quiz:</strong> Why might this traffic sign have been missed by the detector?</p>
-<img src="assets/images/failure-quiz.jpg" alt="Missed Traffic Sign" width="300">
+<img src="assets/images/quiz-stop.jpg" alt="Missed Traffic Sign" width="300">
 <form>
   <label><input type="radio" name="q4"> Occlusion or poor visibility</label><br>
   <label><input type="radio" name="q4"> Model not trained on this class</label><br>
