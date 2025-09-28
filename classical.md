@@ -13,7 +13,7 @@ This page covers **simple, classical approaches** before deep learning.
 
 ## Shape-based approaches
 - Hough transform for circles.
-- ![Hough Example](assets/images/hough-example.png) 
+![Hough Example](assets/images/hough-example.png) 
 - Contour analysis & polygon approximation for triangles/octagons.
 
 ## Handcrafted features (HOG + SVM)
