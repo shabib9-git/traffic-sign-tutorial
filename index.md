@@ -17,8 +17,6 @@ Use the top links to navigate through short pages with pictures, audio notes, an
 - Road safety (driver-assist & autonomous driving)
 - Accessibility (assistive apps for low-vision users)
 
-> Tip: Each page has a short audio note. Add your own recording in `assets/audio/` and link it.
-
 <!-- Example audio embed (replace the src after you add your file) -->
 <audio controls src="assets/audio/intro.mp3">Your browser does not support audio.</audio>
 
