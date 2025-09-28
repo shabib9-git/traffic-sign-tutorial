@@ -10,6 +10,7 @@ This page covers **simple, classical approaches** before deep learning.
 - Morphology (open/close) to clean up masks.
 
 ## Shape-based approaches
+![Stop Sign Example](assets/images/stop.jpg)
 - Hough transform for circles.
 - Contour analysis & polygon approximation for triangles/octagons.
 
