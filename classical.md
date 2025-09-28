@@ -9,8 +9,9 @@ This page covers **simple, classical approaches** before deep learning.
 - Threshold on red/yellow to isolate likely sign regions.
 - Morphology (open/close) to clean up masks.
 
-## Shape-based approaches
 ![Stop Sign Example](assets/images/stop.jpg)
+
+## Shape-based approaches
 - Hough transform for circles.
 - Contour analysis & polygon approximation for triangles/octagons.
 
