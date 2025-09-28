@@ -11,6 +11,8 @@ title: Traffic Sign Detection & Classification
 Welcome! This tutorial introduces **traffic sign detection and classification** for beginners in Computer Vision.  
 Use the top links to navigate through short pages with pictures, audio notes, and references.
 
+![Traffic Signs](assets/images/intro-signs.jpg)
+
 ## Why this matters
 - Road safety (driver-assist & autonomous driving)
 - Accessibility (assistive apps for low-vision users)
