@@ -1,19 +1,34 @@
 [Home](index.md) | [Classical](classical.md) | [Deep Learning](deep-learning.md) | [Datasets & Eval](datasets.md) | [Success/Failure](successes-failures.md) | [Challenges](challenges.md) | [Future](future.md) | [Bibliography](bibliography.md)
 
-
 # Datasets & Evaluation Metrics
 
-## Common datasets
-- **GTSRB** — German Traffic Sign Recognition Benchmark (classification).
-- **BelgiumTSC** — Belgium Traffic Sign Classification.
-- **TT100K** — Large-scale traffic sign detection in the wild.
-- (Optionally mention Mapillary Traffic Sign Dataset.)
+To train and evaluate traffic sign recognition systems, researchers rely on several benchmark datasets. Below are some of the most widely used:
 
-![GTSRB Samples](assets/images/gtsrb-samples.jpg)
+**Common datasets**  
+- **GTSRB** — German Traffic Sign Recognition Benchmark. The most widely used classification dataset (43 classes, ~50,000 images).  
+- **BelgiumTSC** — Belgium Traffic Sign Classification. Includes 62 classes, smaller but diverse.  
+- **TT100K** — A large-scale detection dataset with 221 classes and 100,000+ images, collected from Chinese road scenes.  
+- **Mapillary Traffic Sign Dataset (MTSD)** — More recent, very large dataset with over 300 classes and varied conditions from multiple countries.  
+
+## Example Dataset Images
+![GTSRB Samples](assets/images/gtsrb-samples.jpg)  
+*Figure: Examples from the GTSRB dataset.*
+
+![Dataset Table](assets/images/datasets-table.png)  
+*Figure: Overview of common traffic sign datasets.*
+
+## Evaluation Metrics
+Models are typically evaluated using metrics such as:  
+- **Accuracy** for classification tasks  
+- **Precision, Recall, and F1 score**  
+- **mAP (mean Average Precision)** for detection tasks  
+
+<audio controls src="assets/audio/datasets.mp3">Your browser does not support audio.</audio>
 
 <hr>
 
-<p><strong>Interactive Quiz:</strong> These signs come from which benchmark dataset?</p>
+## Interactive Quiz
+<p><strong>Quiz:</strong> These signs come from which benchmark dataset?</p>
 <img src="assets/images/gtsrb-samples.jpg" alt="Dataset Sample" width="300">
 
 <form id="quizForm2">
@@ -39,17 +54,3 @@
     }
   });
 </script>
-
-
-## Metrics
-- **Accuracy** (classification), **Precision/Recall/F1**.
-- **mAP** (mean Average Precision) for detection.
-
-![Dataset Table](assets/images/datasets-table.png)  
-
-
-**TODOs**
-- Add a small table image or screenshot of sample classes.
-- Audio note explaining metrics briefly.
-
-<audio controls src="assets/audio/datasets.mp3">Your browser does not support audio.</audio>
