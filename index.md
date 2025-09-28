@@ -19,10 +19,6 @@ Use the top links to navigate through short pages with pictures, audio notes, an
 
 > Tip: Each page has a short audio note. Add your own recording in `assets/audio/` and link it.
 
-**TODOs for you**
-- Add a banner image of traffic signs to `assets/images/` and reference it here.
-- Record a 60–90 sec intro MP3: `assets/audio/intro.mp3` and link with the audio tag below.
-
 <!-- Example audio embed (replace the src after you add your file) -->
 <audio controls src="assets/audio/intro.mp3">Your browser does not support audio.</audio>
 
