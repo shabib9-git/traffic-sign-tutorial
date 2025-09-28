@@ -5,6 +5,9 @@
 
 ## Technical
 - Scale variation, motion blur, glare/low light, clutter.
+
+![Foggy Road](assets/images/foggy-road.jpg)  
+
 - Robustness across regions/countries.
 
 ## Deployment
