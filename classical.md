@@ -1,15 +1,28 @@
 [Home](index.md) | [Classical](classical.md) | [Deep Learning](deep-learning.md) | [Datasets & Eval](datasets.md) | [Success/Failure](successes-failures.md) | [Challenges](challenges.md) | [Future](future.md) | [Refs](bibliography.md)
 
-# Traffic Sign Detection & Classification
+# Classical Detection Methods
 
-Welcome to this tutorial on traffic sign detection and classification.  
+This page covers simple, classical approaches before deep learning.
 
-Traffic signs are essential for road safety, and being able to automatically detect and recognize them is important for both autonomous vehicles and assistive technologies for people with low vision.  
+## Color-based approaches
+- Many traffic signs use strong colors like red borders or yellow backgrounds.  
+- Thresholding these colors helps isolate likely regions.  
+- Morphological operations can clean up the masks.  
 
-In this tutorial, we’ll explore classical computer vision approaches such as color and shape detection, and then move on to deep learning methods including CNNs, YOLO, and transformers.  
-We’ll also discuss datasets, evaluation metrics, successes and failures, challenges, and future directions in this field.  
+![Stop Sign](assets/images/stop.jpg)  
+*Figure: STOP sign example.*
 
-![Traffic Signs](assets/images/intro-signs.jpg)  
-*Figure: Common road signs like STOP, Yield, and Speed Limit.*
+## Shape-based approaches
+- Signs use standardized shapes: circles, triangles, octagons.  
+- The Hough transform and contour analysis can identify these shapes.  
 
-<audio controls src="assets/audio/intro.mp3">Your browser does not support audio.</audio>
+![Hough Example](assets/images/hough-example.png)  
+*Figure: Hough transform detecting circles.*
+
+## Handcrafted features (HOG + SVM)
+- Histogram of Oriented Gradients (HOG) captures edge directions.  
+- SVM classifiers can then distinguish sign types based on these features.  
+
+These methods are simple and effective in controlled conditions, but they often fail in complex, real-world environments where lighting, occlusion, or blur are present.
+
+<audio controls src="assets/audio/classical.mp3">Your browser does not support audio.</audio>
