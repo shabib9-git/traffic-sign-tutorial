@@ -7,6 +7,9 @@
 - **Transformers** and better small-object handling.
 - Integration into **assistive navigation** (camera → model → audio output).
 
+![Future Flow](assets/images/future-flow.png)  
+
+
 **TODOs**
 - Add a simple flow diagram image to `assets/images/`.
 - Short audio wrap-up.
