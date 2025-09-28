@@ -9,6 +9,8 @@
 - **TT100K** — Large-scale traffic sign detection in the wild.
 - (Optionally mention Mapillary Traffic Sign Dataset.)
 
+![GTSRB Samples](assets/images/gtsrb-samples.jpg)
+
 ## Metrics
 - **Accuracy** (classification), **Precision/Recall/F1**.
 - **mAP** (mean Average Precision) for detection.
