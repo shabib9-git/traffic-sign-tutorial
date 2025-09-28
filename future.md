@@ -10,8 +10,4 @@
 ![Future Flow](assets/images/future-flow.png)  
 
 
-**TODOs**
-- Add a simple flow diagram image to `assets/images/`.
-- Short audio wrap-up.
-
 <audio controls src="assets/audio/future.mp3">Your browser does not support audio.</audio>
