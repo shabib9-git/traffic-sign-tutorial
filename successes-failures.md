@@ -25,13 +25,35 @@
 <hr>
 
 <p><strong>Interactive Quiz:</strong> Why might this traffic sign have been missed by the detector?</p>
-<img src="assets/images/quiz-stop.jpg" alt="Missed Traffic Sign" width="300">
-<form>
-  <label><input type="radio" name="q4"> Occlusion or poor visibility</label><br>
-  <label><input type="radio" name="q4"> Model not trained on this class</label><br>
-  <label><input type="radio" name="q4"> Both could be possible</label>
+<img src="assets/images/quiz-stop.jpg" alt="Blurred STOP Sign" width="300">
+
+<form id="quizForm">
+  <label><input type="radio" name="q4" value="correct"> Occlusion or poor visibility</label><br>
+  <label><input type="radio" name="q4" value="partial"> Model not trained on this class</label><br>
+  <label><input type="radio" name="q4" value="both"> Both could be possible</label><br>
 </form>
-<p><em>Hint:</em> Think about challenges like weather, occlusion, or dataset coverage.</p>
+
+<p id="quizResult" style="font-weight:bold; margin-top:10px;"></p>
+
+<script>
+  const quizForm = document.getElementById("quizForm");
+  const quizResult = document.getElementById("quizResult");
+
+  quizForm.addEventListener("change", function(e) {
+    const answer = e.target.value;
+    if (answer === "correct") {
+      quizResult.textContent = "✅ Correct! Blur and poor visibility are common reasons detectors fail.";
+      quizResult.style.color = "green";
+    } else if (answer === "both") {
+      quizResult.textContent = "⚠️ Close — poor visibility is the main issue here, but dataset coverage can also matter.";
+      quizResult.style.color = "orange";
+    } else {
+      quizResult.textContent = "❌ Not quite. This example mainly shows blur and visibility issues.";
+      quizResult.style.color = "red";
+    }
+  });
+</script>
+
 
 
 <audio controls src="assets/audio/success-failure.mp3">Your browser does not support audio.</audio>
