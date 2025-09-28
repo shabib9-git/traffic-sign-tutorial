@@ -1,24 +1,15 @@
-[Home](index.md) | [Classical](classical.md) | [Deep Learning](deep-learning.md) | [Datasets & Eval](datasets.md) | [Success/Failure](successes-failures.md) | [Challenges](challenges.md) | [Future](future.md) | [Bibliography](bibliography.md)
+[Home](index.md) | [Classical](classical.md) | [Deep Learning](deep-learning.md) | [Datasets & Eval](datasets.md) | [Success/Failure](successes-failures.md) | [Challenges](challenges.md) | [Future](future.md) | [Refs](bibliography.md)
 
+# Traffic Sign Detection & Classification
 
-# Classical Detection Methods
+Welcome to this tutorial on traffic sign detection and classification.  
 
-This page covers **simple, classical approaches** before deep learning.
+Traffic signs are essential for road safety, and being able to automatically detect and recognize them is important for both autonomous vehicles and assistive technologies for people with low vision.  
 
-## Color-based approaches
-- Threshold on red/yellow to isolate likely sign regions.
-- Morphology (open/close) to clean up masks.
+In this tutorial, we’ll explore classical computer vision approaches such as color and shape detection, and then move on to deep learning methods including CNNs, YOLO, and transformers.  
+We’ll also discuss datasets, evaluation metrics, successes and failures, challenges, and future directions in this field.  
 
-![Stop Sign Example](assets/images/stop.jpg)
+![Traffic Signs](assets/images/intro-signs.jpg)  
+*Figure: Common road signs like STOP, Yield, and Speed Limit.*
 
-## Shape-based approaches
-- Hough transform for circles.
-
-![Hough Example](assets/images/hough-example.png) 
-
-- Contour analysis & polygon approximation for triangles/octagons.
-
-## Handcrafted features (HOG + SVM)
-- Compute HOG per candidate ROI, classify with SVM.
-
-<audio controls src="assets/audio/classical.mp3">Your browser does not support audio.</audio>
+<audio controls src="assets/audio/intro.mp3">Your browser does not support audio.</audio>
