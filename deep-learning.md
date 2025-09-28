@@ -12,7 +12,9 @@
 
 ## Lightweight CNNs for mobile
 - Examples: MobileNet variants, YOLO-tiny family.
+
 ![YOLO Detection](assets/images/yolo-detection.png)  
+
 
 - Good for **real-time** on-device inference.
 
