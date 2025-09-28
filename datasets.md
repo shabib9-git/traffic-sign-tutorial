@@ -15,6 +15,9 @@
 - **Accuracy** (classification), **Precision/Recall/F1**.
 - **mAP** (mean Average Precision) for detection.
 
+![Dataset Table](assets/images/datasets-table.png)  
+
+
 **TODOs**
 - Add a small table image or screenshot of sample classes.
 - Audio note explaining metrics briefly.
