@@ -7,8 +7,13 @@
 - Convolutions learn features automatically.
 - Typically classify cropped/sign ROIs.
 
+![CNN Architecture](assets/images/cnn-architecture.png)  
+
+
 ## Lightweight CNNs for mobile
 - Examples: MobileNet variants, YOLO-tiny family.
+![YOLO Detection](assets/images/yolo-detection.png)  
+
 - Good for **real-time** on-device inference.
 
 ## Transformer-based methods
