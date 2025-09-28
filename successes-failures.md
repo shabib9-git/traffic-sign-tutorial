@@ -7,6 +7,9 @@
 - Clear daylight, frontal view, clean signage.
 - Benchmarks show high accuracy on curated datasets.
 
+![Success Detection](assets/images/success-detection.png)  
+
+
 ## Common failure cases
 - **Small or distant** signs (few pixels tall).
 - **Occlusion** (trees, vehicles), **weather/night**, **faded paint**.
