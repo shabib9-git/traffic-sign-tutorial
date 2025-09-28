@@ -18,10 +18,6 @@
 ![Failure Detection](assets/images/failure-detection.png)  
 
 
-**TODOs**
-- Add 1–2 side-by-side images: detected vs. missed.
-- Short audio reflection on failure cases.
-
 <hr>
 
 <p><strong>Interactive Quiz:</strong> Why might this traffic sign have been missed by the detector?</p>
