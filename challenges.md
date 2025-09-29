@@ -2,14 +2,16 @@
 
 # Challenges
 
-Traffic sign recognition faces two main groups of challenges.
+## Technical challenges
+- Variation in scale and distance  
+- Motion blur from moving cameras  
+- Low lighting or glare  
+- Occlusion by objects  
 
-## Technical Challenges
-Systems must handle variation in scale, motion blur, low lighting, occlusion, and differences in sign appearance across regions.
-
-## Deployment Challenges
-The challenge is efficiency. Real-time detection on mobile devices or in vehicles requires models that are accurate but also lightweight and fast, without consuming too much power.  
-Balancing accuracy with efficiency remains one of the hardest problems in this field.
+## Deployment challenges
+- Real-time requirements  
+- Efficiency and energy use on mobile devices  
+- Balancing accuracy with lightweight models  
 
 ![Foggy Road](assets/images/foggy-road.jpg)  
 *Figure: Road with poor visibility, a challenge for recognition systems.*
