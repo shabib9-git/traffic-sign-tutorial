@@ -2,12 +2,19 @@
 
 # Traffic Sign Detection & Classification
 
-Welcome to this tutorial on traffic sign detection and classification.  
+## Why this matters
+- Critical for road safety  
+  - Self-driving cars must detect and respond to signs  
+- Accessibility for low-vision users  
+  - Mobile apps can provide audio or haptic feedback  
 
-Traffic signs are essential for road safety, and being able to automatically detect and recognize them is important for both autonomous vehicles and assistive technologies for people with low vision.  
-
-In this tutorial, we’ll explore classical computer vision approaches such as color and shape detection, and then move on to deep learning methods including CNNs, YOLO, and transformers.  
-We’ll also discuss datasets, evaluation metrics, successes and failures, challenges, and future directions in this field.  
+## What this tutorial covers
+- Classical methods (color, shape, HOG+SVM)  
+- Deep learning (CNNs, YOLO-tiny, Transformers)  
+- Benchmark datasets and metrics  
+- Successes and failures  
+- Key challenges  
+- Future directions in research and accessibility  
 
 ![Traffic Signs](assets/images/intro-signs.jpg)  
 *Figure: Common road signs like STOP, Yield, and Speed Limit.*
