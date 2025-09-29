@@ -1,18 +1,19 @@
-[Home](index.md) | [Classical](classical.md) | [Deep Learning](deep-learning.md) | [Datasets & Eval](datasets.md) | [Success/Failure](successes-failures.md) | [Challenges](challenges.md) | [Future](future.md) | [Bibliography](bibliography.md)
+[Home](index.md) | [Classical](classical.md) | [Deep Learning](deep-learning.md) | [Datasets & Eval](datasets.md) | [Success/Failure](successes-failures.md) | [Challenges](challenges.md) | [Future](future.md) | [Refs](bibliography.md)
 
 # Successes and Failures
 
 ## Where it works well
-Traffic sign recognition systems achieve very high accuracy in controlled conditions.  
-In good lighting, with clear and visible signs, most modern models perform extremely well.  
+- High accuracy on benchmarks (>98% on GTSRB)  
+- Reliable in clear daylight with visible signs  
 
 ![Success Detection](assets/images/success-detection.png)  
 *Figure: Successful detection example.*
 
-## Common failure cases
-However, there are still important failure cases.  
-Small or distant signs can be hard to detect. Signs may also be missed when they are partially blocked, poorly lit, or damaged by fading and graffiti.  
-These weaknesses highlight the gap between benchmark performance and real-world deployment, and show why continued research is needed.  
+## Where it struggles
+- Small or distant signs  
+- Occlusion (trees, vehicles, other objects)  
+- Poor lighting, fog, or nighttime  
+- Damaged or faded signs  
 
 ![Failure Detection](assets/images/failure-detection.png)  
 *Figure: Example of a missed sign.*
