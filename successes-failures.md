@@ -3,17 +3,17 @@
 # Successes and Failures
 
 ## Where it works well
-- High accuracy on benchmarks (>98% on GTSRB)  
-- Reliable in clear daylight with visible signs  
+- High accuracy on benchmarks (>98% on GTSRB) [<a href="bibliography.md">Stallkamp et al. 2011</a>]  
+- Reliable in clear daylight with visible signs
 
 ![Success Detection](assets/images/success-detection.png)  
 *Figure: Successful detection example.*
 
 ## Where it struggles
-- Small or distant signs  
-- Occlusion (trees, vehicles, other objects)  
-- Poor lighting, fog, or nighttime  
-- Damaged or faded signs  
+- Small or distant signs [<a href="bibliography.md">Wu et al. 2023</a>]  
+- Occlusion (trees, vehicles, other objects) [<a href="bibliography.md">Zhou et al. 2022</a>]  
+- Poor lighting, fog, or nighttime [<a href="bibliography.md">JUSST 2024</a>]  
+- Damaged or faded signs [<a href="bibliography.md">Romić et al. 2023</a>]  
 
 ![Failure Detection](assets/images/failure-detection.png)  
 *Figure: Example of a missed sign.*
