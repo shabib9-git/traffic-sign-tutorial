@@ -3,16 +3,10 @@
 # Datasets & Evaluation Metrics
 
 ## Common datasets
-- **GTSRB** — German Traffic Sign Recognition Benchmark  
-  - 43 classes, ~50k images  
-  - Standard for classification  
-- **BelgiumTSC** — Belgium Traffic Sign Classification  
-  - 62 classes, smaller but diverse  
-- **TT100K** — Tsinghua–Tencent 100K  
-  - 221 classes, 100k+ images  
-  - Large-scale detection dataset  
-- **MTSD** — Mapillary Traffic Sign Dataset  
-  - 300+ classes, multi-country, challenging conditions  
+- **GTSRB** — German Traffic Sign Recognition Benchmark [<a href="bibliography.md">Stallkamp et al. 2011</a>]  
+- **BelgiumTSC** — Belgium Traffic Sign Classification [<a href="bibliography.md">Romić et al. 2023</a>]  
+- **TT100K** — Tsinghua–Tencent 100K [<a href="bibliography.md">Zhu et al. 2016</a>]  
+- **MTSD** — Mapillary Traffic Sign Dataset [<a href="bibliography.md">Romić et al. 2023</a>]  
 
 ## Examples
 ![GTSRB Samples](assets/images/gtsrb-samples.jpg)  
@@ -24,7 +18,7 @@
 ## Evaluation metrics
 - **Accuracy** → for classification  
 - **Precision, Recall, F1-score** → measure detection quality  
-- **mAP (mean Average Precision)** → key metric for detection  
+- **mAP (mean Average Precision)** → key metric for detection [<a href="bibliography.md">Romić et al. 2023</a>]  
 
 <audio controls src="assets/audio/datasets.mp3">Your browser does not support audio.</audio>
 
